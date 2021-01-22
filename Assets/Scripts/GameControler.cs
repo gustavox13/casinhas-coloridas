@@ -62,7 +62,7 @@ public class GameControler : MonoBehaviour
     {
         audioTuto.SetActive(true);
 
-        yield return new WaitForSeconds(31f);
+        yield return new WaitForSeconds(12f);
         audioTuto.SetActive(false);
 
         StartTurn();
